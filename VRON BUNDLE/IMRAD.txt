@@ -1,0 +1,34 @@
+ABSTRACT
+As a cross-disciplinary, speech recognition is based on the voice as the research object. Speech recognition allows the machine to turn the speech signal into text or commands through the process of identification and understanding, and also makes the function of natural voice communication. Speech recognition involves many fields of physiology, psychology, linguistics, computer science and signal processing, and is even related to the person's body language, and its ultimate goal is to achieve natural language communication between man and machine. The speech recognition technology is gradually becoming the key technology of the IT man-machine interface.
+---------------------------------------
+Speech Recognition Simply is the process of converting spoken input to text. It is also known as Speech-to-Text and Voice Recognition. Technically Speech recognition is the process of converting an acoustic signal, captured by a microphone or a telephone, to a set of words.
+---------------------------------------
+
+In a very general way, recommender systems are algorithms aimed at suggesting relevant items to users (items being movies to watch, text to read, products to buy or anything else depending on industries).
+Recommender systems are really critical in some industries as they can generate a huge amount of income when they are efficient or also be a way to stand out significantly from competitors. 
+
+In the first section we are going to overview the two major paradigms of recommender systems : collaborative and content based methods. The next two sections will then describe various methods of collaborative filtering, such as user-user, item-item and matrix factorization.
+============
+INTRODUCTION
+Content-based filtering, also referred to as cognitive filtering, recommends items based on a comparison between the content of the items and a user profile. The content of each item is represented as a set of descriptors or terms, typically the words that occur in a document. The user profile is represented with the same terms and built up by analyzing the content of items which have been seen by the user.
+
+vs
+
+Item-item collaborative filtering, or item-based, or item-to-item, is a form of collaborative filtering for recommender systems based on the similarity between items calculated using people's ratings of those items.
+Item-item models resolve these problems in systems that have more users than items. Item-item models use rating distributions per item, not per user. With more users than items, each item tends to have more ratings than each user, so an item's average rating usually doesn't change quickly. This leads to more stable rating distributions in the model, so the model doesn't have to be rebuilt as often. When users consume and then rate an item, that item's similar items are picked from the existing system model and added to the user's recommendations.
+=========
+METHODLOGY
+[THE ALGORITHM WE ARAE GOING TOO USE AND THE GRAPHCAL REPRESENTATION OF IDEA]
+=======
+RESULT
+[THE OUTPUT THAT IT SHOULD GENERATE]
+==========
+CONCLUSION
+[HOW IT IS BETTER THAN OTHER ALGORITHMS ]
+===============
+ACKNOWLEDGEMENT
+https://ieeexplore.ieee.org/document/6300437
+https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada
+https://www.analyticsvidhya.com/blog/2015/08/beginners-guide-learn-content-based-recommender-systems/
+http://recommender-systems.org/content-based-filtering/
+https://en.wikipedia.org/wiki/Item-item_collaborative_filtering
